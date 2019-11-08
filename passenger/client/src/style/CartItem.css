@@ -1,0 +1,24 @@
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  height: 5vw;
+  width: 35vw;
+}
+.cartCard img {
+  width: 6vw;
+  border-radius: 50%;
+}
+.cartCard h5 {
+  position: absolute;
+  left: 8vw;
+}
+.cart-count {
+  position: relative;
+  top: 2vw;
+  right: 12vw;
+}
+.cart-price {
+  position: relative;
+  right: 2vw;
+  top: 1vw;
+}

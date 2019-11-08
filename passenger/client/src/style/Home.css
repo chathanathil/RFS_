@@ -1,0 +1,23 @@
+.home-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/bc.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.home-background input {
+  left: 30vw;
+  top: 50%;
+  position: absolute;
+  width: 38vw;
+  height: 4vw;
+  padding: 2vw;
+  border: 2px solid teal;
+  border-radius: 3vw;
+}
+.home-background img {
+  height: 2vw;
+  margin-right: 2vw;
+}

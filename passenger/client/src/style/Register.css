@@ -1,0 +1,58 @@
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/Image2.jpg);
+  /* height: 100vh;
+  width: 100%; */
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+}
+.login-card {
+  position: relative;
+  right: 20vw;
+  padding-top: 10vw;
+  height: 100vh;
+}
+.login-card input[type="text"],
+input[type="password"] {
+  width: 25vw;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.login-card input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.card-link {
+  position: relative;
+  top: -3vw;
+  left: 2vw;
+  color: black;
+}
+.login-card button {
+  color: white;
+  border-radius: 2vw;
+  height: 3vw;
+  width: 8vw;
+  border: none;
+  margin-top: 1vw;
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #00cdac 51%,
+    #02aab0 100%
+  );
+  position: absolute;
+
+  left: 9vw;
+}
+.login-card button:hover {
+  background-position: right center;
+}
